@@ -2,4 +2,4 @@
 title: Home
 ---
 
-Honme
+Home
