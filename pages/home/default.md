@@ -2,4 +2,4 @@
 title: Home
 ---
 
-Home
+Main Home
