@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Dump
 ---
 
-Main Home
+Свалка заметок и руководств.
