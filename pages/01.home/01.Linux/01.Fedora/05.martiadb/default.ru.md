@@ -1,5 +1,5 @@
 ---
-title: 'INstalation and preparation martia database'
+title: 'Install and prepare mariadb'
 date: '31-12-2021 19:42'
 ---
 
