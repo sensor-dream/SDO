@@ -1,5 +1,5 @@
 ---
-title: 'Linux - FEDORA'
+title: FEDORA
 ---
 
 # Gnome-shell tuning
