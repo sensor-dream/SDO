@@ -1,5 +1,5 @@
 ---
-title: FEDORA
+title: Fedora
 taxonomy:
     category:
         - docs
