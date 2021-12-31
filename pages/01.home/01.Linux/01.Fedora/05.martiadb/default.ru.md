@@ -13,9 +13,9 @@ sudo dnf install unixODBC perl-DBD-MySQL perl-DBI mysql-selinux mariadb-errmsg m
 
 `script preparation mariadb server`
 
-```
-    #!/bin/env bash
-    # -*- coding: utf-8 -*-
+
+	#!/bin/env bash
+	# -*- coding: utf-8 -*-
 
     declare -rx base_path='replace of your base folder'
 
@@ -27,7 +27,7 @@ sudo dnf install unixODBC perl-DBD-MySQL perl-DBI mysql-selinux mariadb-errmsg m
 
     sudo systemctl enable mariadb
     sudo systemctl start mariadb
-```
+
 
 `Use mysqladmin and create superuser`
 
