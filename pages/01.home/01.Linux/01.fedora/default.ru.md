@@ -1,5 +1,5 @@
 ---
-title: Fedora
+title: 'Fedora tuning'
 taxonomy:
     category:
         - docs
