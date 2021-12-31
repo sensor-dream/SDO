@@ -5,12 +5,15 @@ date: '31-12-2021 19:42'
 
 ## Installation rpm packages mariadb
 
-    unixODBC perl-DBD-MySQL perl-DBI mysql-selinux mariadb-errmsg mariadb-common mariadb mariadb-server mariadb-gssapi-server mariadb-backup mariadb-connector-c mariadb-connector-c-config mariadb-connect-engine mariadb-connector-odbc mariadb-cracklib-password-check mariadb-server-utils
+```
+sudo dnf install unixODBC perl-DBD-MySQL perl-DBI mysql-selinux mariadb-errmsg mariadb-common mariadb mariadb-server mariadb-gssapi-server mariadb-backup mariadb-connector-c mariadb-connector-c-config mariadb-connect-engine mariadb-connector-odbc mariadb-cracklib-password-check mariadb-server-utils
+```
 
 ## Preaparation mariadb
 
 `script preparation mariadb server`
 
+```
     #!/bin/env bash
     # -*- coding: utf-8 -*-
 
@@ -24,36 +27,38 @@ date: '31-12-2021 19:42'
 
     sudo systemctl enable mariadb
     sudo systemctl start mariadb
+```
 
 `Use mysqladmin and create superuser`
 
-    set root password
+    >>> set root password
     sudo mysqladmin -u root password
 
-    login to mysql at console
+    >>> login to mysql at console
     mysql -u root -p
 
-    create new user
+    >>> create new user
     CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 
-    check created of user
+    >>> check created of user
     SELECT User,Host FROM mysql.user;
 
-    set privileges of user
+    >>> set privileges of user
     GRANT ALL PRIVILEGES ON *.* TO 'user'@'host' WITH GRANT OPTION;
 
-    check all privileges grant user
+    >>> check all privileges grant user
     SHOW GRANTS FOR 'user'@'host';
 
-    reload privileges
+    >>> reload privileges
     FLUSH PRIVILEGES;
 
     quit
+```
 
 `To work with mariadb from the console without constantly entering a password, do the following:`
 
     Create sequrity file:
-      echo -e "[mysql]\nuser=root\npassword=your password" > mariadb.conf
+      echo -e "[mysql]\nuser=root\password=your password" > mariadb.conf
     use
       mysql --defaults-file=mariadb.conf 'your commands list'
     or
