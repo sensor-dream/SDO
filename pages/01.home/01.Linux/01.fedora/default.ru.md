@@ -3,6 +3,8 @@ title: Fedora
 taxonomy:
     category:
         - docs
+horizontal: false
+shortcodes: true
 ---
 
 # Gnome-shell tuning
