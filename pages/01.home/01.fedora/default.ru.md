@@ -1,5 +1,8 @@
 ---
 title: FEDORA
+taxonomy:
+    category:
+        - docs
 ---
 
 # Gnome-shell tuning
