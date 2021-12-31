@@ -1,13 +1,11 @@
 ---
-title: 'Fedora tuning'
+title: 'Gnome-shell tuning'
 taxonomy:
     category:
         - docs
 horizontal: false
 shortcodes: true
 ---
-
-# Gnome-shell tuning
 
 ### Installing the required packages
 
