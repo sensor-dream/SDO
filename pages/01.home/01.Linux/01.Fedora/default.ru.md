@@ -1,4 +1,0 @@
----
-title: 'Gnome-shell tuning'
----
-
