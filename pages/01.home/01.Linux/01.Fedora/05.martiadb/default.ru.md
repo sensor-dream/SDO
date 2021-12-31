@@ -12,7 +12,7 @@ date: '31-12-2021 19:42'
 
 `script preparation mariadb server`
 
-```
+````
 	
     #!/bin/env bash
 	# -*- coding: utf-8 -*-
@@ -28,7 +28,7 @@ date: '31-12-2021 19:42'
     sudo systemctl enable mariadb
     sudo systemctl start mariadb
     
-```
+````
 
 `Use mysqladmin and create superuser`
 
