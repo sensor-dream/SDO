@@ -5,7 +5,6 @@ taxonomy:
         - docs
 horizontal: false
 shortcodes: true
-published: true
 ---
 
 # Gnome-shell tuning
