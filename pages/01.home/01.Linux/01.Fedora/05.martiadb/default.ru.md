@@ -5,9 +5,8 @@ date: '31-12-2021 19:42'
 
 ## Installation rpm packages mariadb
 
-```
-sudo dnf install unixODBC perl-DBD-MySQL perl-DBI mysql-selinux mariadb-errmsg mariadb-common mariadb mariadb-server mariadb-gssapi-server mariadb-backup mariadb-connector-c mariadb-connector-c-config mariadb-connect-engine mariadb-connector-odbc mariadb-cracklib-password-check mariadb-server-utils
-```
+	sudo dnf install unixODBC perl-DBD-MySQL perl-DBI mysql-selinux mariadb-errmsg mariadb-common mariadb mariadb-server mariadb-gssapi-server mariadb-backup mariadb-connector-c mariadb-connector-c-config mariadb-connect-engine mariadb-connector-odbc mariadb-cracklib-password-check mariadb-server-utils
+
 
 ## Preaparation mariadb
 
@@ -53,7 +52,6 @@ sudo dnf install unixODBC perl-DBD-MySQL perl-DBI mysql-selinux mariadb-errmsg m
     FLUSH PRIVILEGES;
 
     quit
-```
 
 `To work with mariadb from the console without constantly entering a password, do the following:`
 
