@@ -11,8 +11,8 @@ date: '31-12-2021 19:42'
 ## Preaparation mariadb
 
 `script preparation mariadb server`
----
-#!/bin/env bash
+
+	#!/bin/env bash
 	# -*- coding: utf-8 -*-
 
     declare -rx base_path='replace of your base folder'
