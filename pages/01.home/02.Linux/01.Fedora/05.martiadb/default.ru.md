@@ -1,6 +1,11 @@
 ---
 title: 'Install and prepare mariadb'
 date: '31-12-2021 19:42'
+taxonomy:
+    category:
+        - docs
+horizontal: false
+shortcodes: true
 ---
 
 ## Installation rpm packages mariadb
