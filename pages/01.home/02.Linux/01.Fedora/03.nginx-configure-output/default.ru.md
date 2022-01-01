@@ -1,6 +1,11 @@
 ---
 title: 'Nginx configure output'
 date: '31-12-2021 15:56'
+taxonomy:
+    category:
+        - docs
+horizontal: false
+shortcodes: true
 ---
 
 >>>nginx -V
