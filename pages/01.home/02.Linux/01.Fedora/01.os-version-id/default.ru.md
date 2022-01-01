@@ -1,6 +1,11 @@
 ---
 title: 'OS VERSION ID '
 date: '31-12-2021 15:48'
+taxonomy:
+    category:
+        - docs
+horizontal: false
+shortcodes: true
 ---
 
 ```
