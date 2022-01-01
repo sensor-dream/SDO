@@ -1,6 +1,11 @@
 ---
 title: SYSCTL.CONF
 date: '31-12-2021 16:00'
+taxonomy:
+    category:
+        - docs
+horizontal: false
+shortcodes: true
 ---
 
 ## Tuning TCP stack
