@@ -27,3 +27,8 @@ Open about:config
             browser.cache.offline.enable
 
         and set to all false (default all set to true)
+        
+	Reduced memory consumption when collapsing: 
+    
+    	Create boolean parameter config.trim_on_minimize and set to true
+        
