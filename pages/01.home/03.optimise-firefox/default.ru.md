@@ -14,6 +14,7 @@ Search layers.acceleration.force-enabled (Enabling acceleration on the gpu - vid
 and set to true
 
 Disabling the braking disk cache:
+
 	Search
     	browser.cache.disk.enable
 		browser.cache.disk.smart_size.enabled
