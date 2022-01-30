@@ -15,9 +15,11 @@ Open about:config
 
 	Disabling the braking disk cache:
 
-	Search
+	Search:
+    
     	browser.cache.disk.enable
 		browser.cache.disk.smart_size.enabled
 		browser.cache.disk_cache_ssl
 		browser.cache.offline.enable
+        
 	and set to all false (default all set to true)
