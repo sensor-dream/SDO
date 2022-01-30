@@ -19,4 +19,4 @@ Disabling the braking disk cache:
 		browser.cache.disk.smart_size.enabled
 		browser.cache.disk_cache_ssl
 		browser.cache.offline.enable
-	and set to false
+	and set to all false (default all set to true)
