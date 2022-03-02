@@ -4,7 +4,7 @@ author: 'Pavel M. Teslenko'
 date: '02-03-2022 19:31'
 ---
 
-``` sudo gedit  /lib/systemd/system-sleep/broken-desktop-fix
+sudo gedit  /lib/systemd/system-sleep/broken-desktop-fix
 
 and insert
 
