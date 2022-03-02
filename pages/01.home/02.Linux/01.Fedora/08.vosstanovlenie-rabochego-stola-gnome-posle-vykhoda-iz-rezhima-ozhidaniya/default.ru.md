@@ -2,7 +2,7 @@
 title: 'Restoring the Gnome desktop after exiting standby mode'
 author: 'Pavel M. Teslenko'
 date: '02-03-2022 19:31'
-published: false
+published: true
 ---
 
 	sudo gedit  /lib/systemd/system-sleep/broken-desktop-fix
