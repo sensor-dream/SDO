@@ -23,4 +23,5 @@ and insert
   
 	sudo chmod +x /lib/systemd/system-sleep/broken-desktop-fix
   
-!!! Вы можете вручную перезагружать рабочее окружение после выхода из режима ожидания. Для этого воспользуйтесь комбинацией клавиш ALT+F2 и в появившемся окне введите r и нажмите Enter
+  
+You can manually restart the work environment after exiting standby mode. To do this, use the ALT+F2 key combination and in the window that appears, type r and press Enter
