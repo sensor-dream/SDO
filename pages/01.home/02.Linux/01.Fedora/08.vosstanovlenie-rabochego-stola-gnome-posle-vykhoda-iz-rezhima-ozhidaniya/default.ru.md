@@ -20,4 +20,7 @@ case "" in
      for i in "${NAMES[@]}"; do
         su $i -c 'dbus-send --type=method_call --dest=org.gnome.Shell /org/gnome/Shell org.gnome.Shell.Eval "string:global.reexec_self()"'
     done;;esac
-   
+  
+sudo chmod +x /lib/systemd/system-sleep/broken-desktop-fix
+  
+Вы можете вручную перезагружать рабочее окружение после выхода из режима ожидания. Для этого воспользуйтесь комбинацией клавиш ALT+F2 и в появившемся окне введите r и нажмите Enter
