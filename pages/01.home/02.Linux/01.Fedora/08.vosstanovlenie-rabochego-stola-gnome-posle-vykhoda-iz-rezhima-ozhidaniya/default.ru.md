@@ -1,7 +1,8 @@
 ---
-title: 'Восстановление рабочего стола Gnome после выхода из режима ожидания'
+title: 'Restoring the Gnome desktop after exiting standby mode'
 author: 'Pavel M. Teslenko'
 date: '02-03-2022 19:31'
+published: false
 ---
 
 	sudo gedit  /lib/systemd/system-sleep/broken-desktop-fix
@@ -24,4 +25,4 @@ and insert
 	sudo chmod +x /lib/systemd/system-sleep/broken-desktop-fix
   
   
-You can manually restart the work environment after exiting standby mode. To do this, use the ALT+F2 key combination and in the window that appears, type r and press Enter
+>>> You can manually restart the work environment after exiting standby mode. To do this, use the ALT+F2 key combination and in the window that appears, type r and press Enter
